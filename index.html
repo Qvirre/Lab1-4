@@ -1,0 +1,75 @@
+<!DOCTYPE html><!-- !DOCTYPE html says that “here comes an HTML5 document”. -->
+
+<!-- Document checking completed. No errors or warnings to show. -->
+
+<html lang="en-US"><!-- The root of an html document. All html tags must be inside this. -->
+
+   <head><!-- Provides information about how the page should be interpreted by the browser. -->
+      <meta charset="UTF-8" /><!-- Tells which character encoding is used. -->
+      <title>Portfolio | Anders Qvist</title><!-- The title of the web page. This will appear in the title bar of the browser when you view the page. -->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	   <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />         
+      
+      <!-- CSS global reset (Eric Meyers) -->
+      <link rel="stylesheet" href="css/reset.css" /> 
+      <!-- CSS --> 
+      <link rel="stylesheet" href="css/styles.css" />
+   </head>
+
+   <body class="home"><!-- The body contains the actual content of the page. -->
+
+      <!-- INTRO --> 
+      <div class="content-wrapper">           
+         <nav class="main-nav">
+            <ul>
+               <li><a href="#" class="current">Home</a></li>
+               <li><a href="resume.html">Resume</a></li>  
+               <li><a href="contact.html">Contact</a></li>
+            </ul>
+         </nav> 
+
+         <div class="content-bg">
+            <header>
+               <h1 class="logo">Anders Qvist</h1>
+               <h2>JavaScript for web development</h2>
+            </header>
+                 
+            <main class="newspaper"><!-- Marks what is the main content of the page. -->
+               <p>
+                  Javascript is a programming language for the web and today forms a large part of the web stack. This course is basic 
+                  and focuses on the client side (browser) and how Javascript can be used to make web pages interactive and dynamic and 
+                  improve their functionality. The course is suitable for those who have no previous experience in programming or web 
+                  development. Even you who can program and are interested in learning a new programming language in a new context can 
+                  enjoy this course.
+               </p>
+               <p>To learn more about my work history, check out my <a href="resume.html"> resume</a>. Thanks for stopping by!</p>
+            </main>
+         </div>
+      </div>
+
+      <!-- //  FOOTER INFO, SOCIAL MEDIA  // -->
+      <footer>    
+         <p>© 2024 by Anders Qvist | <a href="mailto:someone@example.com">someone@example.com</a></p>
+
+         <ul class="socials">
+            <li>
+               <a href="https://www.youtube.com/@A19N76Q/" target="_blank"><img src="images/icon-logo-youtube.png" alt="My YouTube channel" /></a>
+            </li>
+            <li>
+               <a href="https://www.linkedin.com/in/anders-qvist-1286abb/" target="_blank"><img src="images/icon-logo-linkedin.png" alt="My LinkedIn profile" /></a>
+            </li>
+            <li>
+               <a href="https://www.facebook.com/anders.qvist/" target="_blank"><img src="images/icon-logo-facebook.png" alt="My Facebook" /></a>
+            </li>         
+            <li>
+               <a href="https://www.instagram.com/qvirre76/" target="_blank"><img src="images/icon-logo-instagram.png" alt="My Instagram" /></a>
+            </li>
+         </ul>
+      </footer>  
+   </body>
+
+</html>

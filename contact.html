@@ -1,0 +1,91 @@
+<!DOCTYPE html><!-- Document checking completed. No errors or warnings to show. -->
+
+<html lang="en-US">
+
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Resum | Anders Qvist</title>
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
+      <!-- CSS global reset (Eric Meyers) -->
+      <link rel="stylesheet" href="css/reset.css" />
+      <link rel="stylesheet" href="css/styles.css" />
+   </head>
+
+   <body class="contact">
+
+      <nav class="main-nav">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>  
+            <li><a href="#" class="current">Contact</a></li>
+         </ul>
+      </nav>
+    
+      <main class="content-wrapper">
+        
+         <!-- //  ADDRESS  // -->
+         <section class="contact-section">
+            <header>
+               <h2>Address</h2>
+            </header>
+            <img class="expand" src="images/elm-500px.jpg" alt="Brf Herrgårdsparken in Kristianstad"
+               srcset="images/elm-1000px.jpg 2x" />           
+            <address>
+               Anders Qvist<br />
+               Elmetorpsvägen 3E<br />
+               291 39 Kristianstad<br />
+            </address> 
+         </section>
+        
+         <!-- //  Form  // -->
+         <section class="contact-section">
+            <header>
+               <h2>Send e-mail to someone@example.com</h2>
+            </header>          
+            
+            <form name="form" method="post" action="mailto:someone@example.com" enctype="multipart/form-data">
+               <fieldset>
+                  <legend> FORM FOR SENDING MESSAGES </legend>
+                
+                  <label for="name">Name:</label><br />
+                  <input id="name" name="name" type="text" size="30" required /><br />
+                  <label for="email">Email:</label><br />
+                  <input id="email" name="email" type="email" size="30" required /><br />
+                  <label for="subject">Subject:</label><br />
+                  <input id="subject" name="subject" type="text" size="30" required /><br />         
+                  <label for="message">Message:</label><br />
+                  <textarea id="message" name="message" rows="10" cols="40" required></textarea><br />
+                  <input class="btn" type="submit" name="send" value="Send" />        
+               </fieldset>     
+            </form>
+         </section>
+
+      </main>
+
+      <!-- //  FOOTER INFO, SOCIAL MEDIA  // -->
+      <footer>
+         <!-- Start content edits below this line. -->
+         <p>© 2024 by Anders Qvist | <a href="mailto:someone@example.com">someone@example.com</a></p>
+
+         <ul class="socials">
+            <li>
+               <a href="https://www.youtube.com/@A19N76Q/" target="_blank"><img src="images/icon-logo-youtube.png" alt="My YouTube channel" /></a>
+            </li>
+            <li>
+               <a href="https://www.linkedin.com/in/anders-qvist-1286abb/" target="_blank"><img src="images/icon-logo-linkedin.png" alt="My LinkedIn profile" /></a>
+            </li>
+            <li>
+               <a href="https://www.facebook.com/anders.qvist/" target="_blank"><img src="images/icon-logo-facebook.png" alt="My Facebook" /></a>
+            </li>         
+            <li>
+               <a href="https://www.instagram.com/qvirre76/" target="_blank"><img src="images/icon-logo-instagram.png" alt="My Instagram" /></a>
+            </li>
+         </ul>         
+        </footer>
+    </body>
+
+</html>
