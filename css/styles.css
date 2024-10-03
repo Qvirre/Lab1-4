@@ -141,6 +141,48 @@ nav li a:hover {
    }
 }
 
+/* Table
+---------------------------------------- */
+.table-item h3 {
+   margin-left: -2rem;
+}
+table {
+   border-collapse: collapse;
+   box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+   margin: 1rem auto;
+   border: .1rem solid Gold; 
+}
+
+table caption {
+   padding-bottom: 0.5rem;
+   letter-spacing: 0.1rem;
+}
+
+th, td {
+   font-size: 1.5rem;
+   text-align: left;
+   padding: .5rem .5rem;
+}
+
+th {
+   font-weight: bold;
+   background: Gold;   
+}
+tr:nth-child(even) { background: #FFF7CC; }
+tr:nth-child(odd) { background: #FFFFF0; }
+
+/* breakpoint 600px */
+@media screen and (max-width: 600px) {
+   table {
+      margin-left: -2rem;
+      padding: 0;
+   }
+   th, td {
+      font-size: 1.2rem;
+      text-align: left;
+      padding: .5rem .5rem;
+   }
+}
 
 /* Projects
 ---------------------------------------- */
